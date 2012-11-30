@@ -20,7 +20,7 @@ PRODUCT_BUILD_PROP_OVERRIDES += PRODUCT_NAME=occam BUILD_FINGERPRINT=google/occa
 #
 # Set up the product codename, build version & MOTD.
 #
-PRODUCT_CODENAME := Careo # (Without)
+PRODUCT_CODENAME := Fulsi
 PRODUCT_VERSION_DEVICE_SPECIFIC :=
 
 PRODUCT_MOTD :="\n\n\n--------------------MESSAGE---------------------\nThank you for choosing Evervolv for your Google Nexus 4\nPlease visit us at \#evervolv on irc.freenode.net\nFollow @preludedrew for the latest Evervolv updates\nGet the latest rom at dl.evervolv.com\n------------------------------------------------\n"
