@@ -23,4 +23,10 @@
     <bool name="def_screen_brightness_automatic_mode">true</bool>
     <!-- Default screen brightness, from 0 to 255. 87 is 34%. -->
     <integer name="def_screen_brightness">87</integer>
+    <!-- Allow side loading -->
+    <bool name="def_install_non_market_apps">true</bool>
+    <!-- Default for UI touch sounds enabled -->
+    <bool name="def_sound_effects_enabled">false</bool>
+    <!-- Default for Lockscreen sounds enabled -->
+    <integer name="def_lockscreen_sounds_enabled">0</integer>
 </resources>
