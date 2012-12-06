@@ -89,6 +89,9 @@ BOARD_VENDOR_QCOM_GPS_LOC_API_HARDWARE := $(TARGET_BOARD_PLATFORM)
 TARGET_NO_RPC := true
 
 TARGET_PREBUILT_KERNEL := device/lge/mako-kernel/kernel
+TARGET_KERNEL_SOURCE := kernel/lge/mako
+TARGET_KERNEL_CONFIG := evervolv_mako_defconfig
+BUILD_KERNEL := true
 
 TARGET_RELEASETOOLS_EXTENSIONS := device/lge/mako
 
