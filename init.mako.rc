@@ -416,3 +416,6 @@ service diag_mdlog /system/bin/logwrapper /system/bin/diag_mdlog -s 100
 
 # on property:gsm.sim.state=READY
 #    start diag_mdlog
+
+on property:sys.boot_completed=1
+    start sshd
