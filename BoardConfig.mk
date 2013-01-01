@@ -99,6 +99,8 @@ TARGET_NO_RPC := true
 #TARGET_PREBUILT_KERNEL := device/lge/mako-kernel/kernel
 TARGET_KERNEL_SOURCE := kernel/lge/mako
 TARGET_KERNEL_CONFIG := evervolv_mako_defconfig
+KERNEL_TOOLCHAIN_PREFIX:=$(ANDROID_BUILD_TOP)/prebuilts/gcc/linux-x86/arm/arm-eabi-4.7/bin/arm-eabi-
+KERNEL_CFLAGS := -march=armv7-a -mtune=cortex-a15 -Wno-maybe-uninitialized
 
 TARGET_RELEASETOOLS_EXTENSIONS := device/lge/mako
 
