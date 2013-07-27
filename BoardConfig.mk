@@ -93,6 +93,7 @@ TARGET_NO_RPC := true
 
 TARGET_KERNEL_SOURCE := kernel/lge/mako
 TARGET_KERNEL_CONFIG := evervolv_mako_defconfig
+TARGET_KERNEL_NO_MODULES := true
 
 TARGET_RELEASETOOLS_EXTENSIONS := device/lge/mako
 
