@@ -29,7 +29,7 @@ PRODUCT_COPY_FILES += \
     vendor/ev/prebuilt/xga/media/bootanimation.zip:system/media/bootanimation.zip
 
 # Hot reboot
-#PRODUCT_PACKAGE_OVERLAYS += vendor/ev/overlay/hot_reboot
+PRODUCT_PACKAGE_OVERLAYS += vendor/ev/overlay/hot_reboot
 
 # Pull all dictionaries
 TARGET_USE_KEYBOARD := international
