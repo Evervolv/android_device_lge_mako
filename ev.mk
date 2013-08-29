@@ -15,7 +15,7 @@ PRODUCT_BRAND   := google
 PRODUCT_DEVICE  := mako
 PRODUCT_MODEL   := Nexus 4
 PRODUCT_MANUFACTURER := LGE
-PRODUCT_BUILD_PROP_OVERRIDES += PRODUCT_NAME=occam BUILD_FINGERPRINT=google/occam/mako:4.3/JWR66V/737497:user/release-keys PRIVATE_BUILD_DESC="occam-user 4.3 JWR66V 737497 release-keys"
+PRODUCT_BUILD_PROP_OVERRIDES += PRODUCT_NAME=occam BUILD_FINGERPRINT=google/occam/mako:4.3/JWR66Y/776638:user/release-keys PRIVATE_BUILD_DESC="occam-user 4.3 JWR66Y 776638 release-keys"
 
 #
 # Set up the product codename, build version & MOTD.
